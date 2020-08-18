@@ -1,0 +1,50 @@
+.main {
+	width: 100%;
+}
+.contForm {
+	width: 50%;
+	margin: auto;
+	padding-top: 200px;
+}
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contLabel {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+.label {
+	margin-bottom: 5px;
+}
+.label,
+.input {
+	width: 100%;
+}
+.input {
+	border: 1px solid rgb(244, 174, 174);
+	padding: 10px;
+	border-radius: 10px;
+}
+.input:focus {
+	box-shadow: 0 0 5px gray;
+}
+.btnSubmit {
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: rgb(82, 35, 35);
+	color: wheat;
+	text-align: center;
+	border: none;
+	font-size: 16px;
+	transition: all 0.5s ease-in-out;
+}
+.btnSubmit:hover {
+	background-color: rgb(91, 60, 60);
+	transform: scale(1.2);
+	transition: all 0.5s ease-in-out;
+}

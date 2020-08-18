@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'roboto', sans-serif;
+	background-color: rgb(255, 245, 231);
+	/* background-image: url(Diseño-sin-título-7-1.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    opacity: .6; */
+}
+
+/* ACÁ EMPIEZA EL MAIN */
+
+.main {
+	max-width: 1200px;
+	width: 1200px;
+	margin: auto;
+	height: 2000px;
+}
+
+.section {
+	width: 60%;
+	float: left;
+}
+
+.title {
+	text-align: center;
+	margin: 80px 0 40px;
+	color: rgb(148, 79, 0);
+	font-size: 3rem;
+}
+
+.imgDesarrollador {
+	display: block;
+	width: 70%;
+	margin: auto;
+	/* margin-bottom: 40px; */
+}
+
+.descripcion {
+	/* width: 500px; */
+	margin: 0 100px;
+	margin-top: 40px;
+}
+
+.aside {
+	width: 25%;
+	float: right;
+	background-color: #ffb7a7;
+	margin-top: 200px;
+	border-radius: 20px;
+	padding: 70px 20px;
+	box-shadow: 0 2px 10px #6b3737;
+	position: sticky;
+	top: 90px;
+	right: 50px;
+	margin-bottom: 40px;
+}
+
+.imgPublicidad:hover {
+	box-shadow: 0 0 8px black;
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+}
+
+.imgPublicidad {
+	width: 100%;
+	margin-bottom: 10px;
+	transition: all 1s ease-in-out;
+}
+
+.firstSmall {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.table {
+	margin: 30px auto;
+	border: 1px solid rgb(138, 101, 22);
+	border-collapse: collapse;
+	width: 75%;
+}
+
+.table th,
+.table td {
+	border: 1px solid rgb(138, 101, 22);
+	padding: 10px;
+	text-align: center;
+}
+
+.boldLetter {
+	font-weight: bold;
+}
+
+.table tr:hover {
+	background-color: #ff8772;
+}
